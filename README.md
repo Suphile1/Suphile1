@@ -1,8 +1,72 @@
-- 👋 Hi, I’m @Suphile1
-- 👀 I’m interested in developpement web /  mobile
-
-
-<!---
-Suphile1/Suphile1 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link rel="stylesheet" href="A propos.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Propos</title>
+</head>
+<body>
+    <div class="header">
+        <svg class="logo" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+            <polygon points="50,10 90,90 10,90" fill="#3a0f0f" />
+        </svg>
+        <h1>A PROPOS DE MOI</h1>
+        <div class="menu-icon">&#9776;</div>
+    </div>
+    <div class="nav">
+        <a href="Accuiel.html">Accueil</a>
+        <a href="monblog.html">Mon blog</a>
+        <a href="monparcours.html">Mon parcours</a>
+        <a href="contact.html">Me contacter</a>
+        <a href="vos avis.html">Vos avis</a>
+    </div>
+    <div class="main-container">
+        <div class="main">
+            <img src="image/Im1.jpg" alt="Image principale">
+            <div class="image-text">Dans un métier qui évolue en permanence, la passion, la rigueur et l’imagination sont les maître-mots. Chaque jour j’apprends à travers de mes différentes expériences, qu’ils soient au service d’un client ou d’un projet personnel. Ces expertises, cumulées, cette passion, je les mets à votre disposition pour vous conseiller et construire avec vous votre projet. Conseils, développement de votre site internet, développement</div>
+        </div>
+        
+        <div class="columns-container">
+            <div class="columns">
+                <div class="column">
+                    <h2>Conseils</h2>
+                    <p>Allons plus loin ensemble pour votre réussite.</p>
+                    <img src="image/image_conseils.jpg" alt="Conseils">
+                </div>
+                <div class="column">
+                    <h2>Expertise</h2>
+                    <p>Nous mettons à votre service toutes nos années d'expertise.</p>
+                    <img src="image/image_expertise.jpg" alt="Expertise">
+                </div>
+                <div class="column">
+                    <h2>Confiance</h2>
+                    <p>Nous travaillons à vos côtés tout en favorisant et protégeant un climat de confiance.</p>
+                    <img src="image/image_confiance.jpg" alt="Confiance">
+                </div>
+            </div>
+        </div>
+        
+        <div class="additional-text">
+            <div class="text-section">
+                <p>Véritable passionné d'informatique sous toutes ses formes, de la machine jusqu'à la création de commandes et de développement de sites web, chacun de mes projets est traité comme un véritable challenge pour lequel je cherche toujours à opter pour les meilleures stratégies de développement qui répondront aux attentes de mes clients.</p>
+            </div>
+            <div class="skills">
+                <div class="skill skill-1">CSS</div>
+                <div class="skill skill-2">HTML</div>
+                <div class="skill skill-3">SQL</div>
+                <div class="skill skill-4">VIEUX</div>
+                <div class="skill skill-5">SESS</div>
+                <div class="skill skill-6">PHP</div>
+                <div class="skill skill-7">LINUX</div>
+                <div class="skill skill-8">NOD</div>
+            </div>
+        </div>
+        
+        <div class="contact">
+            <a href="vos avis.html" class="button">Laissez votre avis</a>
+            <a href="contact.html" class="button">N’hésitez pas à me contacter</a>
+        </div>
+    </div>
+</body>
+</html>
