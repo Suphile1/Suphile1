@@ -45,15 +45,6 @@ Ce projet consiste en la refonte du site vitrine de Mr Louis Allard. L'objectif 
 - Ajouter un formulaire de contact fonctionnel.
 - Optimiser davantage les performances pour une meilleure expérience utilisateur.
 
-## Contribution
-
-Les contributions sont les bienvenues ! Pour contribuer :
-
-1. Forkez le projet.
-2. Créez votre branche de fonctionnalité (`git checkout -b feature/AmazingFeature`).
-3. Commitez vos modifications (`git commit -m 'Add some AmazingFeature'`).
-4. Pushez votre branche (`git push origin feature/AmazingFeature`).
-5. Ouvrez une Pull Request.
 
 
 ## Remerciements
