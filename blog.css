@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, Helvetica;
+    background-color: #025a44;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    background-color: #024747;
+    padding: 1rem 0;
+}
+
+.nav a {
+    margin: 0 1.5rem;
+    text-decoration: none;
+    color: #fcfdfc;
+    font-weight: bold;
+}
+
+
+.blog-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+
+.blog-header h1 {
+    margin-left: 10px;
+}
+
+
+.blog-post h2 {
+    margin-top: 0;
+}
+
+.audio {
+    margin-bottom: 10px;
+}
+
+.episode-text {
+    color: #0c0c0c;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+.header .logo {
+    width: 3rem;
+    fill: #3a0f0f; 
+}
+
