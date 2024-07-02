@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link rel="stylesheet" href="contact.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactez-Nous</title>
+</head>
+<body>
+<div class="header">
+    <svg class="logo" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+        <polygon points="50,10 90,90 10,90" fill="#3a0f0f" />
+    </svg>
+    <nav>
+        <a href="Accuiel.html">Accueil</a>
+        <a href="A propos.html">A propos</a>
+        <a href="monblog.html">Mon blog</a>
+        <a href="vos avis.html">Vos avis</a>
+    </nav>
+</div>
+
+<div class="container">
+    <div class="contact-form">
+        <img src="image/Im1.jpg" alt="Header Image">
+        <h2>ME CONTACTER</h2>
+        <form action="process_form.php" method="POST">
+            <div class="form-group">
+                <input type="text" name="nom" placeholder="Nom" required>
+                <input type="text" name="prenom" placeholder="Prénom" required>
+            </div>
+            <input type="text" name="entreprise" placeholder="Entreprise">
+            <select name="vous_etes" required>
+                <option value="">Vous êtes...</option>
+                <option value="Entreprise">Entreprise Public</option>
+                <option value="Privée">Entreprise Privée</option>
+                <option value="Développeur Web">Développeur Web</option>
+                <option value="Organisation de formation">Organisation de formation</option>
+                <option value="Autres">Autres</option>
+            </select>
+            <select name="vous_cherchez" required>
+                <option value="">Vous cherchez...</option>
+                <option value="Formateur">Formateur</option>
+                <option value="Consultant">Consultant</option>
+                <option value="Développeur Web">Développeur Web</option>
+            </select>
+            <input type="text" name="telephone" placeholder="Téléphone">
+            <textarea name="message" placeholder="Votre message" required></textarea>
+            <input type="email" name="email" placeholder="Votre mail" required>
+            <button type="submit">Envoyer</button>
+        </form>
+    </div>
+</div>
+</body>
+</html>
